@@ -1,0 +1,86 @@
+[
+  {
+    "id": "security-guards",
+    "title": "Security Guards",
+    "description": "Professional, trained, and alert security guards for all your protection needs.",
+    "benefits": ["24/7 Protection", "Trained Personnel", "Quick Response"],
+    "industriesServed": ["Corporate", "Residential", "Retail"]
+  },
+  {
+    "id": "armed-security",
+    "title": "Armed Security",
+    "description": "Highly trained armed guards for high-risk environments and critical asset protection.",
+    "benefits": ["Deterrence", "High-level Threat Mitigation", "Expert Handling"],
+    "industriesServed": ["Banks", "Jewelry Stores", "High Net Worth Individuals"]
+  },
+  {
+    "id": "unarmed-security",
+    "title": "Unarmed Security",
+    "description": "Approachable yet vigilant unarmed guards for customer-facing and low-risk environments.",
+    "benefits": ["Customer Service Oriented", "Visual Deterrence", "Cost-effective"],
+    "industriesServed": ["Offices", "Malls", "Schools"]
+  },
+  {
+    "id": "event-security",
+    "title": "Event Security",
+    "description": "Comprehensive security solutions for events of all sizes, ensuring safety and crowd control.",
+    "benefits": ["Crowd Management", "Access Control", "Emergency Planning"],
+    "industriesServed": ["Concerts", "Corporate Events", "Sports Venues"]
+  },
+  {
+    "id": "corporate-security",
+    "title": "Corporate Security",
+    "description": "Tailored security services for corporate offices to protect employees, visitors, and assets.",
+    "benefits": ["Access Control", "Reception Security", "After-hours Patrolling"],
+    "industriesServed": ["Tech Parks", "Headquarters", "Co-working Spaces"]
+  },
+  {
+    "id": "residential-security",
+    "title": "Residential Security",
+    "description": "Dedicated security for residential complexes, providing peace of mind for residents.",
+    "benefits": ["Visitor Management", "Perimeter Patrolling", "Incident Reporting"],
+    "industriesServed": ["Apartments", "Gated Communities", "Villas"]
+  },
+  {
+    "id": "industrial-security",
+    "title": "Industrial Security",
+    "description": "Robust security solutions for factories and warehouses to prevent theft and ensure safety compliance.",
+    "benefits": ["Loss Prevention", "Gate House Operations", "Safety Compliance"],
+    "industriesServed": ["Factories", "Warehouses", "Construction Sites"]
+  },
+  {
+    "id": "cctv-monitoring",
+    "title": "CCTV Monitoring",
+    "description": "24/7 vigilant CCTV monitoring to detect and respond to suspicious activities immediately.",
+    "benefits": ["Continuous Surveillance", "Immediate Alerting", "Evidence Recording"],
+    "industriesServed": ["All Industries"]
+  },
+  {
+    "id": "vip-protection",
+    "title": "VIP Protection",
+    "description": "Discreet and highly effective close protection services for executives and VIPs.",
+    "benefits": ["Close Protection", "Route Planning", "Threat Assessment"],
+    "industriesServed": ["Executives", "Celebrities", "Dignitaries"]
+  },
+  {
+    "id": "bouncer-services",
+    "title": "Bouncer Services",
+    "description": "Professional bouncers for clubs, bars, and private parties to maintain order.",
+    "benefits": ["Conflict De-escalation", "Entry Control", "Physical Presence"],
+    "industriesServed": ["Nightclubs", "Bars", "Private Parties"]
+  },
+  {
+    "id": "patrol-services",
+    "title": "Patrol Services",
+    "description": "Mobile patrol units to cover large areas and provide randomized security checks.",
+    "benefits": ["Wide Area Coverage", "Randomized Checks", "Quick Response"],
+    "industriesServed": ["Large Campuses", "Industrial Parks", "Neighborhoods"]
+  },
+  {
+    "id": "fire-safety",
+    "title": "Fire Safety Services",
+    "description": "Expert fire safety personnel trained in fire prevention, evacuation, and initial response.",
+    "benefits": ["Fire Hazard Identification", "Evacuation Assistance", "Fire Fighting"],
+    "industriesServed": ["Warehouses", "Factories", "High-rise Buildings"]
+  }
+]
