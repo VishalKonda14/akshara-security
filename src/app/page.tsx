@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ShieldCheck, Users, Target, ArrowRight, Eye, Building2, Home as HomeIcon, Factory, Star, UserCheck, Flame, Car } from "lucide-react";
+import { ShieldCheck, Users, Target, ArrowRight, Eye, Building2, Home as HomeIcon, Factory, Star, UserCheck, Flame, Car, Crosshair } from "lucide-react";
 import servicesData from "@/data/services.json";
 import { motion } from "framer-motion";
 
