@@ -1,0 +1,26 @@
+[
+  {
+    "id": "importance-of-security-guards",
+    "title": "The Importance of Professional Security Guards for Your Business",
+    "date": "2023-10-15",
+    "image": "/images/blog/guard-patrol.jpg",
+    "summary": "Discover why having a trained security presence is crucial for protecting your business assets and employees.",
+    "content": "Full content goes here..."
+  },
+  {
+    "id": "cctv-vs-guards",
+    "title": "CCTV vs. Physical Security: Why You Need Both",
+    "date": "2023-09-22",
+    "image": "/images/blog/cctv-monitoring.jpg",
+    "summary": "While CCTV provides great surveillance, physical guards offer immediate response. Learn why a combined approach works best.",
+    "content": "Full content goes here..."
+  },
+  {
+    "id": "event-security-tips",
+    "title": "Top 5 Tips for Ensuring Event Security",
+    "date": "2023-08-10",
+    "image": "/images/blog/event-security.jpg",
+    "summary": "Planning a large event? Here are the top security considerations to ensure everything goes smoothly and safely.",
+    "content": "Full content goes here..."
+  }
+]

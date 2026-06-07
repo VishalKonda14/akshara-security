@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "TechPark Innovations",
+    "logo": "/images/clients/techpark.png"
+  },
+  {
+    "id": 2,
+    "name": "Greenwood Apartments",
+    "logo": "/images/clients/greenwood.png"
+  },
+  {
+    "id": 3,
+    "name": "Mega Manufacturing Group",
+    "logo": "/images/clients/mega.png"
+  },
+  {
+    "id": 4,
+    "name": "City Mall",
+    "logo": "/images/clients/citymall.png"
+  },
+  {
+    "id": 5,
+    "name": "Global Hospital",
+    "logo": "/images/clients/hospital.png"
+  }
+]

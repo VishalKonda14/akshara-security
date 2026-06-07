@@ -49,13 +49,6 @@
     "industriesServed": ["Factories", "Warehouses", "Construction Sites"]
   },
   {
-    "id": "cctv-monitoring",
-    "title": "CCTV Monitoring",
-    "description": "24/7 vigilant CCTV monitoring to detect and respond to suspicious activities immediately.",
-    "benefits": ["Continuous Surveillance", "Immediate Alerting", "Evidence Recording"],
-    "industriesServed": ["All Industries"]
-  },
-  {
     "id": "vip-protection",
     "title": "VIP Protection",
     "description": "Discreet and highly effective close protection services for executives and VIPs.",

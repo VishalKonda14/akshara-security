@@ -1,0 +1,47 @@
+[
+  {
+    "id": "corporate",
+    "name": "Corporate Offices",
+    "icon": "Building2"
+  },
+  {
+    "id": "apartments",
+    "name": "Apartments & Residential",
+    "icon": "Home"
+  },
+  {
+    "id": "education",
+    "name": "Schools & Colleges",
+    "icon": "GraduationCap"
+  },
+  {
+    "id": "hospitals",
+    "name": "Hospitals",
+    "icon": "Stethoscope"
+  },
+  {
+    "id": "factories",
+    "name": "Factories",
+    "icon": "Factory"
+  },
+  {
+    "id": "warehouses",
+    "name": "Warehouses",
+    "icon": "Warehouse"
+  },
+  {
+    "id": "construction",
+    "name": "Construction Sites",
+    "icon": "HardHat"
+  },
+  {
+    "id": "retail",
+    "name": "Retail Stores",
+    "icon": "Store"
+  },
+  {
+    "id": "events",
+    "name": "Events & Exhibitions",
+    "icon": "Tent"
+  }
+]

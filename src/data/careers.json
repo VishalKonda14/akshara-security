@@ -1,0 +1,26 @@
+[
+  {
+    "id": "security-guard",
+    "title": "Security Guard",
+    "type": "Full-time",
+    "location": "Karimnagar",
+    "description": "Looking for vigilant and trained security guards for residential and commercial postings.",
+    "requirements": ["Minimum 10th pass", "Physically fit", "No criminal record", "Age 21-45"]
+  },
+  {
+    "id": "supervisor",
+    "title": "Security Supervisor",
+    "type": "Full-time",
+    "location": "Karimnagar",
+    "description": "Experienced security supervisor to manage teams across multiple sites.",
+    "requirements": ["Minimum 3 years experience", "Good communication skills", "Leadership abilities"]
+  },
+  {
+    "id": "cctv-operator",
+    "title": "CCTV Operator",
+    "type": "Full-time",
+    "location": "Karimnagar",
+    "description": "Alert CCTV operators required for central monitoring station.",
+    "requirements": ["Basic computer knowledge", "Attention to detail", "Willingness to work shifts"]
+  }
+]

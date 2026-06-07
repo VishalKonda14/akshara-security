@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Kumar",
+    "designation": "Facility Manager",
+    "company": "TechPark Innovations",
+    "feedback": "Akshara Security has provided outstanding service for our tech park. Their guards are professional, vigilant, and well-trained.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Anita Desai",
+    "designation": "Secretary",
+    "company": "Greenwood Apartments Society",
+    "feedback": "The residential security team from Akshara gives our residents peace of mind. Excellent access control and patrolling.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Suresh Reddy",
+    "designation": "Operations Head",
+    "company": "Mega Manufacturing Group",
+    "feedback": "Since we hired Akshara for our industrial security, incidents have dropped to zero. Highly recommend their services.",
+    "rating": 4
+  }
+]
