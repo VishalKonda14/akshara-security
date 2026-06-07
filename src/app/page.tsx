@@ -1,12 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { ShieldCheck, Users, Target, ArrowRight, Activity, Crosshair, Eye, Building2, Home as HomeIcon, Factory, Star, UserCheck, Flame, Car, Shield } from "lucide-react";
-import companyData from "@/data/company.json";
+import { ShieldCheck, Users, Target, ArrowRight, Eye, Building2, Home as HomeIcon, Factory, Star, UserCheck, Flame, Car } from "lucide-react";
 import servicesData from "@/data/services.json";
 import { motion } from "framer-motion";
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ElementType> = {
   "security-guards": ShieldCheck,
   "armed-security": Target,
   "unarmed-security": Eye,
@@ -150,7 +149,7 @@ export default function Home() {
               </motion.div>
               <motion.h2 variants={fadeUp} className="text-5xl font-bold text-[#0A1128] mb-6 tracking-tight">Capabilities</motion.h2>
               <motion.p variants={fadeUp} className="text-xl text-slate-600 leading-relaxed">
-                Comprehensive security architecture tailored to your precise operational environment. We don't just provide guards; we provide strategic safety.
+                Comprehensive security architecture tailored to your precise operational environment. We don&apos;t just provide guards; we provide strategic safety.
               </motion.p>
             </div>
             <motion.div variants={fadeUp}>

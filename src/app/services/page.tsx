@@ -1,9 +1,9 @@
 "use client";
 import services from '@/data/services.json';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Users, Target, ArrowRight, Activity, Crosshair, Eye, Building2, Home as HomeIcon, Factory, Star, UserCheck, Flame, Car, Shield } from "lucide-react";
+import { ShieldCheck, Users, Target, Eye, Building2, Home as HomeIcon, Factory, Star, UserCheck, Flame, Car, Shield } from "lucide-react";
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ElementType> = {
   "security-guards": ShieldCheck,
   "armed-security": Target,
   "unarmed-security": Eye,
