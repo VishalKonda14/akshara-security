@@ -63,7 +63,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Phone</strong>
-                      {companyData.contact.cell1}<br />{companyData.contact.tel}
+                      {companyData.contact.cell1}<br />Landline: {companyData.contact.tel}
                     </div>
                     <div>
                       <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Email</strong>
