@@ -5,12 +5,23 @@
   "director": "G. SRINIVASA RAO",
   "contact": {
     "cell1": "8790715679",
-    "cell2": "9550663949",
     "tel": "0878 2955679",
     "email": "aksharafacilitiesmanagement18@gmail.com"
   },
   "address": {
     "line1": "H.No.2-7-350, 3rd Floor, Beside Collectorate",
     "line2": "New Mukarampura, Karimnagar - 505001"
+  },
+  "headquarters": {
+    "address": {
+      "line1": "Plot No. 103/GF/FF, Saraswati Nagar, Lothkunta",
+      "line2": "Secunderabad - 505015"
+    },
+    "contact": {
+      "tel": "040 - 29305679",
+      "cell": "9550663949",
+      "cell2": "8374651847",
+      "email": "aksharafacilitiesmanagement18@gmail.com"
+    }
   }
 }

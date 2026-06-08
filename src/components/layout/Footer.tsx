@@ -69,20 +69,21 @@ export function Footer() {
               <li className="flex items-start gap-4">
                 <MapPin className="h-5 w-5 text-[var(--color-asfm-gold)] shrink-0 mt-0.5" />
                 <span className="text-sm leading-relaxed text-slate-300 font-medium">
-                  {companyData.address.line1}<br />
-                  {companyData.address.line2}
+                  {companyData.headquarters.address.line1}<br />
+                  {companyData.headquarters.address.line2}
                 </span>
               </li>
               <li className="flex items-center gap-4">
                 <Phone className="h-5 w-5 text-[var(--color-asfm-gold)] shrink-0" />
                 <div className="flex flex-col">
-                  <span className="text-sm font-medium text-slate-300">{companyData.contact.cell1}</span>
-                  <span className="text-sm font-medium text-slate-300">{companyData.contact.cell2}</span>
+                  <span className="text-sm font-medium text-slate-300">{companyData.headquarters.contact.cell}</span>
+                  <span className="text-sm font-medium text-slate-300">{companyData.headquarters.contact.cell2}</span>
+                  <span className="text-sm font-medium text-slate-300">{companyData.headquarters.contact.tel}</span>
                 </div>
               </li>
               <li className="flex items-center gap-4">
                 <Mail className="h-5 w-5 text-[var(--color-asfm-gold)] shrink-0" />
-                <span className="text-sm font-medium text-slate-300">{companyData.contact.email}</span>
+                <span className="text-sm font-medium text-slate-300">{companyData.headquarters.contact.email}</span>
               </li>
             </ul>
           </div>

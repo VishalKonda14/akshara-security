@@ -12,7 +12,7 @@ export default function GalleryPage() {
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#8B0000]/20 to-transparent pointer-events-none"></div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="inline-flex items-center gap-3 border-l-2 border-[#D4AF37] pl-4 mb-6"
@@ -30,18 +30,18 @@ export default function GalleryPage() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
             {galleryImages.map((filename, index) => (
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, scale: 0.98 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: (index % 12) * 0.05 }} // Stagger up to 12 items
-                key={filename} 
+                key={filename}
                 className="aspect-square bg-slate-100 border border-[#D4AF37]/20 relative overflow-hidden group shadow-sm hover:shadow-xl transition-shadow duration-300"
               >
-                <img 
-                  src={`/images/gallery/${filename}`} 
+                <img
+                  src={`/images/gallery/${filename}`}
                   alt={`Security Operation ${index + 1}`}
                   loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale mix-blend-multiply group-hover:grayscale-0 group-hover:mix-blend-normal"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 md:grayscale md:mix-blend-multiply md:group-hover:grayscale-0 md:group-hover:mix-blend-normal"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0A1128]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </motion.div>

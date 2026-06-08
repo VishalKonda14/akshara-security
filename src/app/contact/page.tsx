@@ -12,7 +12,7 @@ export default function ContactPage() {
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#8B0000]/20 to-transparent pointer-events-none"></div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="inline-flex items-center gap-3 border-l-2 border-[#D4AF37] pl-4 mb-6"
@@ -29,32 +29,52 @@ export default function ContactPage() {
       <section className="py-20">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-            
-            <motion.div 
+
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               className="lg:col-span-5 space-y-12"
             >
-              <div>
-                <h2 className="text-3xl font-bold text-[#0A1128] mb-8 tracking-tight">Headquarters</h2>
-                <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
-                  <div>
-                    <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Address</strong>
-                    {companyData.address.line1}<br/>{companyData.address.line2}
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-3xl font-bold text-[#0A1128] mb-8 tracking-tight">Headquarters</h2>
+                  <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
+                    <div>
+                      <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Address</strong>
+                      {companyData.headquarters.address.line1}<br />{companyData.headquarters.address.line2}
+                    </div>
+                    <div>
+                      <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Phone</strong>
+                      {companyData.headquarters.contact.cell}<br />{companyData.headquarters.contact.cell2}<br />{companyData.headquarters.contact.tel}
+                    </div>
+                    <div>
+                      <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Email</strong>
+                      {companyData.headquarters.contact.email}
+                    </div>
                   </div>
-                  <div>
-                    <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Phone</strong>
-                    {companyData.contact.cell1}<br/>{companyData.contact.cell2}<br/>{companyData.contact.tel}
-                  </div>
-                  <div>
-                    <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Email</strong>
-                    {companyData.contact.email}
+                </div>
+
+                <div className="pt-8 border-t border-slate-200">
+                  <h2 className="text-3xl font-bold text-[#0A1128] mb-8 tracking-tight">Branches</h2>
+                  <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
+                    <div>
+                      <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Address</strong>
+                      {companyData.address.line1}<br />{companyData.address.line2}
+                    </div>
+                    <div>
+                      <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Phone</strong>
+                      {companyData.contact.cell1}<br />{companyData.contact.tel}
+                    </div>
+                    <div>
+                      <strong className="block text-[#0A1128] mb-1 font-mono uppercase tracking-widest text-sm">Email</strong>
+                      {companyData.contact.email}
+                    </div>
                   </div>
                 </div>
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
@@ -95,9 +115,9 @@ export default function ContactPage() {
           <div className="max-w-5xl mx-auto">
             {/* User will drop the visiting cards image here */}
             <div className="relative w-full overflow-hidden border border-[#D4AF37]/30 bg-[#0A1128]/50 shadow-2xl p-2 rounded-none">
-              <img 
-                src="/images/visiting-cards.jpg" 
-                alt="Akshara Security Visiting Cards" 
+              <img
+                src="/images/visiting-cards.jpg"
+                alt="Akshara Security Visiting Cards"
                 className="w-full h-auto object-contain"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
